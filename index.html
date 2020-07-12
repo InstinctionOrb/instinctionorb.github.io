@@ -1,42 +1,451 @@
 <!DOCTYPE html>
-<html>
-    <link rel='icon' href='https://cdn.discordapp.com/attachments/642811791394471936/729029019051229214/Hylant_Transparent_Logo.png' type='image/x-icon'/ >
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Software development, talent management, and digital marketing company.">
-    <meta name="keywords" content="Development, Software, Spigot, Paper, Discord, Talent, Digital, Marketing, Java, HTML, CSS, Minecraft"> 
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Josefin+Sans&family=Raleway&display=swap" rel="stylesheet">
+<html lang="en">
 <head>
-<style>
+  <meta charset="utf-8">
+  <title>HylantGames</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-body {
-background-image: url("https://i.imgur.com/xjfarvp.png");
-    background-attachment: fixed ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-font-family: 'DM Sans', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
-}
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
-}
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
-</style>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
 </head>
-<div style="text-align: center;">
-<img width="200" height="200" class="center" src="https://i.imgur.com/0hUQw48.png" alt="HylantGames" >
-</div>
-<center>
-<h1 style="color:white; font-size:40px; font-family: Josefin Sans;">Hylant Games</h1>
-<p style="color:white; font-size:20px;">Software development, talent managment <br>and digital marketing company.<br><br>			<a href="https://discord.hylantgames.com" style="color: #FFFFFF">Order on Discord.</a></p>
 
-</center>
 <body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>NewBiz</span></a></h1> -->
+        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          </li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+      <div class="intro-img">
+        <img src="img/intro-img.svg" alt="" class="img-fluid">
+      </div>
+
+      <div class="intro-info">
+        <h2>We provide<br><span>high quality services</span><br>for your business!</h2>
+        <div>
+          <a href="https://hylantgames.com/discord" class="btn-get-started scrollto">Join our Discord</a>
+          <a href="#services" class="btn-services scrollto">Our Services</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>About Us</h3>
+          <p>We are a Software Development, talented managment, and digital marketing company, Located in Michigan, USA.</p>
+        </header>
+
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <p>
+              Our main goal is to make our Clients happy and satisfaid after receiving there orders, we work with different companies, and we provide a high quality designs, and plugins.
+            </p>
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <h4 class="title"><a href="">Fast Delivery</a></h4>
+              <p class="description">We charge a 100% FREE Super delivery for our clients.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-photo"></i></div>
+              <h4 class="title"><a href="">High Quality Orders</a></h4>
+              <p class="description">We provide the best Quality you can get in the Market.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="">Support 24/7</a></h4>
+              <p class="description">We have a different Staff Team from different Regions ready to support you.</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="img/about-img.svg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/about-extra-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>HylantGames Managment Team.</h4>
+            <p>
+              We have a very talented and experienced Company Managers, Ready to interview and assit any customer & client.
+            </p>
+            <p>
+              Our freelancers have been tested and trusted to start delivering the best of the best.
+            </p>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/about-extra-2.svg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>Ordering System</h4>
+            <p>
+             You can place and order in our server using DiscordAPP, we have a support channel and we can hear you order.
+            </p>
+            <p>
+              After ordering, you will receive a Transaction ID to your email so you can follow every step of you're order.
+            </p>
+            <p>
+              Support Team ready 24/7 to assist you with any questions or problems.
+            </p>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Services</h3>
+          <p>Our Services are 100% Custom and Editable.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">Minecraft Plugins / Setups</a></h4>
+              <p class="description">We have an Experienced Devlopers ready to make your own custom plugin, and even setup your server for you.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-bookmarks-outline" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a href="">Discord Bots</a></h4>
+              <p class="description">Best Discord ots, with any kind of permissions, ready to be made and delivered.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">Graphic Designing</a></h4>
+              <p class="description">Looking for a Business or Mascot or even Vecotor logos? here where you can find the latest and the most modern work.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="">TeamSpeak 3 Setups</a></h4>
+              <p class="description">Openning a new TeamSpeak 3 Server and don't know how to setup it? we can do that for you.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-world-outline" style="color: #d6ff22;"></i></div>
+              <h4 class="title"><a href="">Web Devlopment</a></h4>
+              <p class="description">We can setup your Wordpress or custom website with our best and experienced Web Developers</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-logo-buffer" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a href="">Minecraft Building</a></h4>
+              <p class="description">We provide a Full Custom Builds, and you can follow any step we do and we can do what ever you're imagination wants.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Why Us Section
+    ============================-->
+    <section id="why-us" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Why choose us?</h3>
+          <p></p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-diamond"></i>
+              <div class="card-body">
+                <h5 class="card-title">High Quality</h5>
+                <p class="card-text"></p>
+                <a href="#" class="readmore"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-language"></i>
+              <div class="card-body">
+                <h5 class="card-title">Affordable</h5>
+                <p class="card-text"></p>
+                <a href="#" class="readmore"></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-object-group"></i>
+              <div class="card-body">
+                <h5 class="card-title">Affordable</h5>
+                <p class="card-text"></p>
+                <a href="#" class="readmore"> </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row counters">
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">81</span>
+            <p>Clients</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">210</span>
+            <p>Projects</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">1,364</span>
+            <p>Hours Of Support</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-toggle="counter-up">15</span>
+            <p>Hard Workers</p>
+          </div>
+  
+        </div>
+
+      </div>
+    </section>
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Team Section
+    ============================-->
+
+
+    <!--==========================
+      Clients Section
+    ============================-->
+
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+        </div>
+              <div class="col-md-4 info">
+                <i class="ion-ios-email-outline"></i>
+                <p>contact@hylantgames.com</p>
+              </div>
+
+            <div class="form">
+              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="errormessage"></div>
+              <form action="" method="post" role="form" class="contactForm">
+                <div class="form-row">
+                  <div class="form-group col-lg-6">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                  <div class="form-group col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <div class="text-center"><button type="submit" title="Send Message">Send Message</button></div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>HylantGames</h3>
+            <p>Software development, talent management, and digital marketing company.</p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              <br>
+              United States <br>
+              <strong>Phone:</strong> Unavailable<br>
+              <strong>Email:</strong> contact@hylantgames.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://twitter.com/hylantgames" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://instagram.com/hylantgames" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="https://hylantgames.com/discord" class="discord"><i class="fa fa-discord"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Put your email to receive ourlatest updates..</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit"  value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>HylantGames COM</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!--
+        -->
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
 </html>
